@@ -12,9 +12,13 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --minify --dts",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "preview": "yarn build && npm pack --dry-run"
   },
   "dependencies": {
     "katex": "^0.16.10"
