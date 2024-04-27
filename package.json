@@ -1,0 +1,38 @@
+{
+  "name": "vue-latex",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Render LaTeX in Vue components.",
+  "author": "Richard Dominick",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --minify --dts",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "katex": "^0.16.10"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "eslint": "^9.1.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.1",
+    "vue": "^3.4.25"
+  },
+  "homepage": "https://github.com/RichDom2185/vue-latex#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichDom2185/vue-latex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RichDom2185/vue-latex/issues"
+  }
+}
