@@ -1,6 +1,17 @@
 import katex, { KatexOptions } from "katex";
 import type { Plugin } from "vue";
 
+declare module "@vue/runtime-core" {
+  export interface ComponentCustomProperties {
+    /**
+     * Render a LaTeX expression to HTML.
+     * @param expression The LaTeX expression to render.
+     * @returns The rendered HTML.
+     */
+    $latex: (expression: string) => string;
+  }
+}
+
 type Options = {
   /**
    * The Provider to use for rendering the LaTeX expression.
