@@ -15,7 +15,7 @@ type Options = {
   globalOptions?: KatexOptions;
 };
 
-const VueLatex: Plugin<[Options | undefined]> = {
+const VueLatex: Plugin<[Options?]> = {
   install(app, options = {}) {
     // Inject the $latex method into the Vue app.
     app.config.globalProperties.$latex = (expression: string) => {
