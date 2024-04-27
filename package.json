@@ -1,6 +1,6 @@
 {
   "name": "@richdom2185/vue-latex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Render LaTeX in Vue components.",
   "author": "Richard Dominick",

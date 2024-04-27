@@ -1,6 +1,7 @@
 # vue-latex
 
 ![License](https://img.shields.io/github/license/RichDom2185/vue-latex)
+[![Version](https://img.shields.io/npm/v/@richdom2185/vue-latex)](https://www.npmjs.com/package/@richdom2185/vue-latex)
 
 Render LaTeX in Vue components.
 
