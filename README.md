@@ -17,13 +17,13 @@ Render LaTeX in Vue components.
 ### Step 1: Install the package
 
 ```bash
-npm install vue-latex katex
+npm install @richdom2185/vue-latex katex
 ```
 
 Or if using yarn:
 
 ```bash
-yarn add vue-latex katex
+yarn add @richdom2185/vue-latex katex
 ```
 
 ### Step 2: Import the package
@@ -31,7 +31,7 @@ yarn add vue-latex katex
 ```diff js
 + import 'katex/dist/katex.min.css';
 import { createApp } from 'vue';
-+ import VueLatex from 'vue-latex';
++ import VueLatex from '@richdom2185/vue-latex';
 import App from './App.vue';
 
 const app = createApp(App);
