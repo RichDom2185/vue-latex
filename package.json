@@ -20,6 +20,9 @@
     "lint": "eslint src",
     "preview": "yarn build && npm pack --dry-run"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "katex": "^0.16.10"
   },
